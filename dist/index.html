@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Roomie Manila's user-testing-aligned product requirements and MVP direction." />
+    <meta name="theme-color" content="#092f3d" />
+    <title>Roomie Manila | Product Requirements</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Roomie Manila home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span>Roomie Manila</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#evidence">Evidence</a>
+        <a href="#priorities">Priorities</a>
+        <a href="#roadmap">Roadmap</a>
+        <a class="nav-cta" href="./Roomie_Manila_Revised_PRD.pdf" target="_blank" rel="noopener">Read the PRD</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">User-testing-aligned product direction</p>
+          <h1>Trust is the product.<br /><span>Search is the entry point.</span></h1>
+          <p class="hero-lede">Roomie makes Metro Manila's fragmented rental market structured, transparent, and trustworthy - so renters can confidently contact a host and schedule a viewing.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="./Roomie_Manila_Revised_PRD.pdf" target="_blank" rel="noopener">Open the full PRD <span aria-hidden="true">↗</span></a>
+            <a class="button secondary" href="./Roomie_Manila_Revised_PRD.pdf" download>Download PDF</a>
+          </div>
+          <p class="document-meta">Revision 2.0 · November 2026 · Tae Jun TJ Cha and Takashi Ban</p>
+        </div>
+
+        <div class="journey-card" aria-label="Roomie renter journey">
+          <p class="card-label">The confidence journey</p>
+          <ol>
+            <li><span>01</span><strong>Discover</strong><small>Plausible homes, clearly organized</small></li>
+            <li><span>02</span><strong>Understand</strong><small>True cost, occupancy, and location</small></li>
+            <li><span>03</span><strong>Establish trust</strong><small>Evidence, reviews, and score clarity</small></li>
+            <li><span>04</span><strong>Take the next step</strong><small>Contact a host or schedule a viewing</small></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="evidence section" id="evidence">
+        <div class="section-heading">
+          <p class="eyebrow">What the research says</p>
+          <h2>A promising foundation, with trust as the clearest unmet need.</h2>
+          <p>The findings come from 15 participants across tenant and host testing. Variant-level results are directional because each tenant MVP had four testers.</p>
+        </div>
+        <div class="metrics" aria-label="User testing results">
+          <article><strong>74.2</strong><span>Average SUS</span><small>Across 15 participants</small></article>
+          <article><strong>80.6</strong><span>MVP2 SUS</span><small>Strongest directional tenant result</small></article>
+          <article><strong>60%</strong><span>Trust first</span><small>9 of 15 ranked it #1</small></article>
+          <article><strong>3.73/4</strong><span>Recommendation</span><small>Average participant rating</small></article>
+        </div>
+      </section>
+
+      <section class="decision-band">
+        <p class="eyebrow">The product decision</p>
+        <p class="decision-quote">Build the smallest credible path from discovery to verified contact.</p>
+        <div class="flow" aria-label="Target renter flow">
+          <span>Discover</span><i aria-hidden="true">→</i>
+          <span>Filter</span><i aria-hidden="true">→</i>
+          <span>Inspect</span><i aria-hidden="true">→</i>
+          <span>Establish trust</span><i aria-hidden="true">→</i>
+          <span>Understand place</span><i aria-hidden="true">→</i>
+          <span>Contact</span>
+        </div>
+      </section>
+
+      <section class="section priorities" id="priorities">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Scope and priority</p>
+            <h2>Complete and credible before broad and clever.</h2>
+          </div>
+          <p>Roomie's next iteration concentrates effort where testing showed it matters most: trustworthy people, trustworthy listings, and enough local context to make a housing decision.</p>
+        </div>
+
+        <div class="priority-grid">
+          <article class="priority-card must">
+            <div><span>P0</span><small>Must validate</small></div>
+            <h3>Trust infrastructure</h3>
+            <ul>
+              <li>Verified identities, hosts, and listings</li>
+              <li>Authentic, current property photos</li>
+              <li>Reviews and explainable Roomie Scores</li>
+              <li>Transparent price, fees, and availability</li>
+              <li>Reporting, moderation, and appeals</li>
+            </ul>
+          </article>
+          <article class="priority-card should">
+            <div><span>P1</span><small>Should validate</small></div>
+            <h3>Decision quality</h3>
+            <ul>
+              <li>MVP2 split map/list baseline</li>
+              <li>Occupancy, roommate, and lease context</li>
+              <li>Commute, transit, and daily needs</li>
+              <li>Price and relevance sorting</li>
+              <li>Listing-linked chat and viewings</li>
+            </ul>
+          </article>
+          <article class="priority-card later">
+            <div><span>P2</span><small>After trust</small></div>
+            <h3>Transaction readiness</h3>
+            <ul>
+              <li>Documents and contracts</li>
+              <li>Payment status and receipts</li>
+              <li>Optional regulated escrow pilot</li>
+              <li>Roommate matching and feeds</li>
+              <li>Moving and housing services</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="prototype section">
+        <div class="prototype-copy">
+          <p class="eyebrow">MVP direction</p>
+          <h2>One integrated experience, informed by six prototypes.</h2>
+          <p>Tenant MVP2 becomes the primary mobile discovery baseline, with MVP1's map synchronization and MVP3's curated rails retained as supporting patterns. Host concepts consolidate around listing quality, inquiries, and viewing operations before live payments.</p>
+          <a class="text-link" href="./Roomie_Manila_Revised_PRD.pdf#page=7" target="_blank" rel="noopener">See the prototype decision in the PRD <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="prototype-visual" aria-label="Integrated MVP architecture">
+          <div class="phone">
+            <div class="phone-top"><span></span><b>Roomie</b><span class="avatar"></span></div>
+            <div class="map"><i></i><i></i><i></i><i></i></div>
+            <div class="sheet">
+              <span class="handle"></span>
+              <p>18 trusted homes near your commute</p>
+              <div class="listing"><span></span><div><b>Verified studio</b><small>Quezon City · ₱12,500/mo</small></div></div>
+              <div class="listing"><span></span><div><b>Shared condo room</b><small>Makati · ₱9,800/mo</small></div></div>
+            </div>
+          </div>
+          <div class="signal signal-one"><b>✓</b><span>Identity checked</span></div>
+          <div class="signal signal-two"><b>82</b><span>Roomie Score explained</span></div>
+          <div class="signal signal-three"><b>24m</b><span>Typical commute</span></div>
+        </div>
+      </section>
+
+      <section class="roadmap section" id="roadmap">
+        <div class="section-heading">
+          <p class="eyebrow">Roadmap</p>
+          <h2>Retire the highest-risk assumptions first.</h2>
+        </div>
+        <ol class="roadmap-list">
+          <li><span>01</span><div><strong>Specify</strong><p>Finalize trust definitions, listing schema, moderation workflow, and instrumentation.</p></div><small>1-2 weeks</small></li>
+          <li><span>02</span><div><strong>Integrate</strong><p>Build one tenant and one host flow around the complete trust-to-viewing journey.</p></div><small>2-4 weeks</small></li>
+          <li><span>03</span><div><strong>Validate</strong><p>Test comprehension, decision quality, accessibility, and contact confidence with 24+ participants.</p></div><small>2 weeks</small></li>
+          <li><span>04</span><div><strong>Pilot</strong><p>Add persistent accounts, verification operations, moderation, analytics, and controlled supply.</p></div><small>6-10 weeks</small></li>
+          <li><span>05</span><div><strong>Transact</strong><p>Only after gates: documents, payment tracking, and regulated partner assessment.</p></div><small>After gates</small></li>
+        </ol>
+      </section>
+
+      <section class="final-cta">
+        <div>
+          <p class="eyebrow">The complete specification</p>
+          <h2>From research signal to testable product requirements.</h2>
+          <p>The 19-page PRD includes acceptance criteria, release gates, safeguards, metrics, research design, risks, and evidence traceability.</p>
+        </div>
+        <div class="final-actions">
+          <a class="button light" href="./Roomie_Manila_Revised_PRD.pdf" target="_blank" rel="noopener">Read the PRD <span aria-hidden="true">↗</span></a>
+          <a class="download-link" href="./Roomie_Manila_Revised_PRD.pdf" download>Download 19-page PDF</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="brand"><span class="brand-mark" aria-hidden="true">R</span><span>Roomie Manila</span></div>
+      <p>Product Requirements Document · Revised November 2026</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
